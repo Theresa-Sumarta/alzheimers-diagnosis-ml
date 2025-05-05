@@ -1,7 +1,30 @@
 # Alzheimer's Disease Detection with Machine Learning
 
 ## Project Components
+### Research Paper
+- [`Alzheimer_Disease_Detection_Report.pdf`](Alzheimer_Disease_Detection_Report.pdf)  
+  *Comprehensive report detailing data, methodology, experiments, and findings.*
 
+### Slide Deck
+- [`AlzheimerDetection_Slides.pdf`](AlzheimerDetection_Slides.pdf)  
+  *Concise summary of problem, approach, and results for presentation.*
+
+### Notebooks 
+
+| Notebook | File Name | Description |
+|----------|-----------|-------------|
+| 🧠 2D MRI Classification | [`2D_MRI_AD_Classifier.ipynb`](notebooks/2D_MRI_AD_Classifier.ipynb) | Classifies brain MRI slices into AD / non-AD using CNNs. |
+| 🔄 Conversion Patient Selection | [`Identify_Conversion_Patients.ipynb`](notebooks/Identify_Conversion_Patients.ipynb) | Filters longitudinal patient data for MCI-to-AD progression analysis. |
+| 📉 2D MRI Conversion Prediction | [`2D_MRI_Conversion_Predictor.ipynb`](notebooks/2D_MRI_Conversion_Predictor.ipynb) | Predicts future AD diagnosis from early MRIs using CNN. |
+| 📋 Symptom-Based Classification | [`Symptoms_Classifier_ML.ipynb`](notebooks/Symptoms_Classifier_ML.ipynb) | Uses classical ML models on patient history and symptoms to classify AD/MCI. |
+| 🧠 3D MRI Classification | [`3D_MRI_AD_Classifier.ipynb`](notebooks/3D_MRI_AD_Classifier.ipynb) | Builds and trains a 3D CNN model using NIfTI volumes. |
+
+## Summary
+
+This project explores multiple modalities for Alzheimer's detection:
+- **Image-based deep learning**: Using 2D slices and full 3D MRI volumes.
+- **Clinical data modeling**: Using symptom-based structured data.
+- **Early diagnosis modeling**: Predicting future AD conversion from MCI.
 
 ## Problem Statement
 Early and accurate diagnosis of Alzheimer’s Disease (AD) is critical, yet challenging due to limited clinical time, diagnostic complexity, and overlapping symptoms with normal aging. Current diagnosis relies on blood tests, history, and MRI scan interpretation, which is often manual and time-consuming.
