@@ -13,9 +13,7 @@
 
 | Notebook | File Name | Description |
 |----------|-----------|-------------|
-| 🧠 2D MRI Classification | [`2D_MRI_AD_Classifier.ipynb`](notebooks/2D_MRI_AD_Classifier.ipynb) | Classifies brain MRI slices into AD / non-AD using CNNs. |
 | 🔄 Conversion Patient Selection | [`Identify_Conversion_Patients.ipynb`](notebooks/Identify_Conversion_Patients.ipynb) | Filters longitudinal patient data for MCI-to-AD progression analysis. |
-| 📉 2D MRI Conversion Prediction | [`2D_MRI_Conversion_Predictor.ipynb`](notebooks/2D_MRI_Conversion_Predictor.ipynb) | Predicts future AD diagnosis from early MRIs using CNN. |
 | 📋 Symptom-Based Classification | [`Symptoms_Classifier_ML.ipynb`](notebooks/Symptoms_Classifier_ML.ipynb) | Uses classical ML models on patient history and symptoms to classify AD/MCI. |
 | 🧠 3D MRI Classification | [`3D_MRI_AD_Classifier.ipynb`](notebooks/3D_MRI_AD_Classifier.ipynb) | Builds and trains a 3D CNN model using NIfTI volumes. |
 
