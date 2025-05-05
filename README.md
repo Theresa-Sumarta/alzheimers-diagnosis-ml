@@ -57,6 +57,12 @@ All data sourced from the **Alzheimer’s Disease Neuroimaging Initiative (ADNI)
 - Best model: **Random Forest** with tuned depth and estimators.
 - Evaluation focused on preventing underfitting/overfitting by comparing train/test accuracy deltas.
 
+## Tools & Libraries
+
+- PyTorch, Keras, Scikit-learn, NiBabel, NumPy, Pandas
+- OpenCV, Matplotlib, Seaborn
+- MRI data from ADNI (Alzheimer's Disease Neuroimaging Initiative)
+
 ## Highlights
 - Extensive preprocessing of MRI and tabular data.
 - Multiple CNN architectures tested with augmentation and regularization.
