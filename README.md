@@ -54,7 +54,7 @@ All data sourced from the **Alzheimer’s Disease Neuroimaging Initiative (ADNI)
 
 ### Symptom-Based Classification
 - Models tested: **KNN, Decision Tree, Random Forest, SVM, Naive Bayes, Logistic Regression**
-- Best model: **Random Forest** with tuned depth and estimators.
+- Best model: **Random Forest** with tuned depth and estimators with an F1 Score of 0.7957.
 - Evaluation focused on preventing underfitting/overfitting by comparing train/test accuracy deltas.
 
 ## Tools & Libraries
